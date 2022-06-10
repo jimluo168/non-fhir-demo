@@ -1,0 +1,9 @@
+server:
+  port: 9092
+  use-forward-headers: true
+  session:
+    cookie:
+      http-only: true
+  contextPath: /
+  servlet:
+    context-path: /
